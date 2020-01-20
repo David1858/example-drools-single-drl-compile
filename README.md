@@ -21,7 +21,7 @@ Within this example project, the rule author must wait over 30 seconds to receiv
 
 ![image](/images/all-junits.png)
  
-To reduce the compile time (and increase rule developer productivity), a simple junit that compiles only the drl under construction is used.  An example of this is src/test/java/org/example/LimitedDrlCompileTest.java.
+To reduce the compile time (and increase rule developer productivity), a simple junit that compiles only the drl under construction is used.  An example of this is [LimitedDrlCompileTest.java](https://github.com/David1858/example-drools-single-drl-compile/blob/master/src/test/java/org/example/LimitedDrlCompileTest.java).
  
 Then execute this when you are working within the drl.  It requires only a second or two to compile and identify the syntax issue.
  
